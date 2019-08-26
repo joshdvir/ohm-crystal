@@ -14,7 +14,7 @@ dependencies:
     github: soveran/nest-crystal
     branch: master
   stal:
-    github: soveran/stal-crystal
+    github: joshdvir/stal-crystal
     branch: master
 
 development_dependencies:

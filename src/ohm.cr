@@ -173,12 +173,12 @@ module Ohm
     LUA = {
       save: {
         src: with_file("ohm/save.lua", "cat"),
-        sha: with_file("ohm/save.lua", "shasum").split(' ').first,
+        sha: with_file("ohm/save.lua", "sha1sum").split(' ').first,
       },
 
       delete: {
         src: with_file("ohm/delete.lua", "cat"),
-        sha: with_file("ohm/delete.lua", "shasum").split(' ').first,
+        sha: with_file("ohm/delete.lua", "sha1sum").split(' ').first,
       },
     }
 
